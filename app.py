@@ -34,7 +34,7 @@ def main():
 
   
 # Title
-    st.markdown("<h1 style='text-align: center; color: White;'>Arboris Capitalis</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: Darkgreen;'>Arboris Capitalis</h1>", unsafe_allow_html=True)
 
     # Description
     st.markdown(
