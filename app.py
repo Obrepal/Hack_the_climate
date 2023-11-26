@@ -19,17 +19,17 @@ def main():
 
     # Set page config to wide layout
     st.set_page_config(layout="wide")
-    bg_img = '''
-    <style>
-    [data-testid="stAppViewContainer"] {
-    background-image: url('https://images.unsplash.com/photo-1609901525254-9e64b77b483a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
-    background-repeat: no-repeat;
-    # opacity: 0.1; /* Adjust the opacity value (0.0 to 1.0) */
-    }
-    </style>
-    '''
-    st.markdown(bg_img, unsafe_allow_html=True)
+    # bg_img = '''
+    # <style>
+    # [data-testid="stAppViewContainer"] {
+    # background-image: url('https://images.unsplash.com/photo-1609901525254-9e64b77b483a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    # background-size: cover;
+    # background-repeat: no-repeat;
+    # # opacity: 0.1; /* Adjust the opacity value (0.0 to 1.0) */
+    # }
+    # </style>
+    # '''
+    # st.markdown(bg_img, unsafe_allow_html=True)
 
 
   
